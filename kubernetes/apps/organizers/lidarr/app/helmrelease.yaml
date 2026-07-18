@@ -46,7 +46,7 @@ spec:
           app:
             image:
               repository: ghcr.io/bh2754/lidarr-develop
-              tag: 3.1.2@sha256:83112fdc98758c81ef960677870ddae3d66a209bb71a40921940dbf570f6817c
+              tag: 3.1.3@sha256:b740142fc1d3a8e811a235839e5d1445030bc5a76e8236acffe12937e5cd027c
             env:
               LIDARR__AUTH__METHOD: External
               LIDARR__AUTH__REQUIRED: DisabledForLocalAddresses
