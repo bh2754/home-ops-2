@@ -53,7 +53,7 @@ spec:
           app:
             image:
               repository: ghcr.io/dragonflydb/operator
-              tag: v1.3.1@sha256:7410dc31c05bca2c0648fca232f2300b897f8d77f001c19d75c9647f830d768b
+              tag: v1.7.0@sha256:3bfe011c73a0f642cc49808c34e2199ff378b08f2201e8bd134115706b39b9b1
             command: ["/manager"]
             args:
               - --health-probe-bind-address=:8081
